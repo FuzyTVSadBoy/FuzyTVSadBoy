@@ -4,15 +4,11 @@
 
 <br><br>
 
-<p align="center">
-  <a href="https://github.com/FuzyTVSadBoy">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=700&size=20&duration=1500&pause=500&color=58A6FF&center=true&vCenter=true&width=800&height=40&lines=Android%20Modding%20and%20System%20Exploring;Kid%202k12%20Ch%C3%ADnh%20Hi%E1%BB%87u;Tool%20Developer" alt="Chuyển động chữ" />
-  </a>
-</p>
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=700&size=20&duration=2000&pause=500&color=58A6FF&center=true&vCenter=true&width=600&height=40&lines=Android+Modding+and+System+Exploring;Kid+2k12+Chinh+Hieu;Tool+Developer" alt="Typing SVG" />
 
-<p align="center">
-  <i>"Từng sợ hãi khi đối diện Soft-Brick, bây giờ Hard-Brick chỉ là trò trẻ con."</i>
-</p>
+<br><br>
+
+<i>"Từng sợ hãi khi đối diện Soft-Brick, bây giờ Hard-Brick chỉ là trò trẻ con."</i>
 
 </div>
 
@@ -20,56 +16,62 @@
 
 ---
 
-<h3 align="center">🔥 Tech Skills</h3>
+<div align="center">
+  <h3>🔥 Tech Skills</h3>
+</div>
 
 <div align="center">
 
-### 🎯 **Core Stack**
-<br>
-<img src="https://skillicons.dev/icons?i=py,lua,go&theme=dark" style="filter: drop-shadow(0 0 5px green);" alt="Core Stack" />
+<b>🎯 Core Stack</b><br>
+<img src="https://skillicons.dev/icons?i=py,lua,go&theme=dark" alt="Core Stack" />
 <br><br>
 
-### 📱 **System & Infrastructure (Mod Môi Trường)**
-<br>
-<img src="https://skillicons.dev/icons?i=android,linux,bash,regex&theme=dark" style="filter: drop-shadow(0 0 5px green);" alt="System" />
+<b>📱 System & Infrastructure (Mod Môi Trường)</b><br>
+<img src="https://skillicons.dev/icons?i=android,linux,bash,regex&theme=dark" alt="System" />
 <br><br>
 
-### 🛠️ **Development Tools**
-<br>
-<img src="https://skillicons.dev/icons?i=git,github,vscode,pycharm&theme=dark" style="filter: drop-shadow(0 0 5px green);" alt="Tools" />
-<br><br>
+<b>🛠️ Development Tools</b><br>
+<img src="https://skillicons.dev/icons?i=git,github,vscode,pycharm&theme=dark" alt="Tools" />
 
 </div>
 
+<br>
+
 ---
 
-<h3 align="center">💀 Legacy & Past Works</h3>
+<div align="center">
+  <h3>💀 Legacy & Past Works</h3>
+</div>
 
 <div align="center">
 
-<table align="center" width="850px">
+<table width="100%">
   <tr>
-    <th width="65%" align="left"><font size="3">📂 Tên Dự Án (Projects)</font></th>
-    <th width="35%" align="center"><font size="3">📌 Trạng Thái (Status)</font></th>
+    <th width="60%" align="left"><font size="3">📂 Tên Dự Án (Projects)</font></th>
+    <th width="40%" align="center"><font size="3">📌 Trạng Thái (Status)</font></th>
   </tr>
   
   <tr>
     <td align="left">
+      <br>
       <b>Crypto Miner (MMO)</b><br>
-      <img src="https://img.shields.io/badge/Bitcoin-F7931A?style=for-the-badge&logo=bitcoin&logoColor=white"/> 
-      <img src="https://img.shields.io/badge/USDT-26A17B?style=for-the-badge&logo=tether&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Bitcoin-F7931A?style=flat-square&logo=bitcoin&logoColor=white"/> 
+      <img src="https://img.shields.io/badge/USDT-26A17B?style=flat-square&logo=tether&logoColor=white"/>
+      <br><br>
     </td>
     <td align="center">
-      <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=800&size=14&pause=200&color=F1C40F&vCenter=true&width=80&lines=MINING...;MINING..;MINING." style="vertical-align: middle;" alt="Mining Text" />
-      <img src="https://media.tenor.com/tHqgG2A2J0UAAAAi/minecraft-pickaxe.gif" width="35" style="vertical-align: middle; margin-left: 5px;" alt="Pickaxe Digging" />
+      <img src="https://img.shields.io/badge/MINING...-F1C40F?style=for-the-badge&logoColor=white" style="vertical-align: middle;" />
+      <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Pick.png" width="35" style="vertical-align: middle; margin-left: 5px;" alt="Pickaxe Digging" />
     </td>
   </tr>
 
   <tr>
     <td align="left">
+      <br>
       <b>Roblox MB Rejoin Tool</b><br>
-      <img src="https://img.shields.io/badge/Roblox-000000?style=for-the-badge&logo=roblox&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Roblox-000000?style=flat-square&logo=roblox&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+      <br><br>
     </td>
     <td align="center">
       <img src="https://img.shields.io/badge/🟢_Active-2EA043?style=for-the-badge&logoColor=white" />
@@ -78,9 +80,11 @@
 
   <tr>
     <td align="left">
+      <br>
       <b>DoS Attacker</b><br>
-      <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Network-000000?style=for-the-badge&logo=cisco&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kali-linux&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Network-000000?style=flat-square&logo=cisco&logoColor=white"/>
+      <br><br>
     </td>
     <td align="center">
       <img src="https://img.shields.io/badge/🛑_Discontinued-DA3633?style=for-the-badge&logoColor=white" />
@@ -89,9 +93,11 @@
 
   <tr>
     <td align="left">
+      <br>
       <b>Cày Thuê Roblox</b><br>
-      <img src="https://img.shields.io/badge/Gaming_Services-FF0000?style=for-the-badge&logo=roblox&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Trading-111111?style=for-the-badge&logo=cashapp&logoColor=00FF00"/>
+      <img src="https://img.shields.io/badge/Gaming_Services-FF0000?style=flat-square&logo=roblox&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Trading-111111?style=flat-square&logo=cashapp&logoColor=00FF00"/>
+      <br><br>
     </td>
     <td align="center">
       <img src="https://img.shields.io/badge/🛑_Discontinued-DA3633?style=for-the-badge&logoColor=white" />
@@ -99,21 +105,9 @@
   </tr>
 </table>
 
+</div>
+
 <br>
-
-<div align="center">
-  <a href="http://thagore.com" style="text-decoration: none; color: #58A6FF;"><code>Connect with master brick & explorer at Thagore.com</code></a>
-</div>
-
-</div>
-
----
-
-<div align="center">
-  <br>
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=18&duration=4000&pause=1000&color=00FF00&center=true&vCenter=true&width=800&lines=💫+Từng+sợ+Soft-Brick,+bây+giờ+Hard-Brick+chỉ+là+trò+trẻ+con+💫" alt="Quote" />
-  <br>
-</div>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,50:764ba2,100:f093fb&height=120&section=footer&animation=twinkling" width="100%" alt="Footer" />

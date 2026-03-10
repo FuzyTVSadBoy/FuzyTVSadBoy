@@ -5,7 +5,7 @@
 <br>
 
 <a href="https://github.com/FuzyTVSadBoy">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=700&size=22&duration=1500&pause=500&color=667EEA&center=true&vCenter=true&width=800&height=50&lines=%E2%9A%A1+Android+Modding+and+System+Exploring;%F0%9F%94%A5+T%E1%BB%ABng+s%E1%BB%A3+Soft-Brick,+b%C3%A2y+gi%E1%BB%9D+Hard-Brick+l%C3%A0+mu%E1%BB%97i!;%F0%9F%92%BB+Android+Modder+%7C+Tool+Developer" alt="Chuyển động chữ" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=20&duration=1500&pause=500&color=667EEA&center=true&vCenter=true&width=800&height=40&lines=%E2%9A%A1+Android+Modding+and+System+Exploring;%F0%9F%94%A5+T%E1%BB%ABng+s%E1%BB%A3+Soft-Brick,+b%C3%A2y+gi%E1%BB%9D+Hard-Brick+l%C3%A0+mu%E1%BB%97i!;%E2%98%81%EF%B8%8F+M%E1%BB%A5c+ti%C3%AAu:+Cloud+Server+Exploiter;%F0%9F%92%80+Nah,+Crack+Cloud+Server+Google+li%E1%BB%87u+c%C3%B3+d%E1%BB%85+th%E1%BA%BF%3F" alt="Chuyển động chữ" />
 </a>
 
 <br><br>
@@ -20,29 +20,25 @@
 
 ---
 
-<h2 align="center">🔥 Tech Skills</h2>
+<h3 align="center">🔥 Tech Skills</h3>
 
 <div align="center">
 
 <br>
-
-### 🎯 **Core Stack**
-<img src="https://skillicons.dev/icons?i=py,lua,go&theme=dark" alt="Core Stack" />
+<img src="https://skillicons.dev/icons?i=py,lua,go&theme=dark" style="filter: drop-shadow(0 0 5px green);" alt="Core Stack" />
 <br><br>
 
-### 📱 **System & Infrastructure (Mod Môi Trường)**
-<img src="https://skillicons.dev/icons?i=android,linux,bash,regex&theme=dark" alt="System" />
+<img src="https://skillicons.dev/icons?i=android,linux,bash,regex&theme=dark" style="filter: drop-shadow(0 0 5px green);" alt="System" />
 <br><br>
 
-### 🛠️ **Development Tools**
-<img src="https://skillicons.dev/icons?i=git,github,vscode,pycharm&theme=dark" alt="Tools" />
+<img src="https://skillicons.dev/icons?i=git,github,vscode,pycharm&theme=dark" style="filter: drop-shadow(0 0 5px green);" alt="Tools" />
 <br><br>
 
 </div>
 
 ---
 
-<h2 align="center">💀 Legacy & Past Works</h2>
+<h3 align="center">💀 Legacy & Past Works</h3>
 
 <div align="center">
 
@@ -56,13 +52,13 @@
     <td align="left">
       <br>
       <b>Crypto Miner (MMO)</b><br>
-      <img src="https://img.shields.io/badge/Bitcoin-F7931A?style=for-the-badge&logo=bitcoin&logoColor=white"/> 
-      <img src="https://img.shields.io/badge/USDT-26A17B?style=for-the-badge&logo=tether&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Bitcoin-F7931A?style=flat-square&logo=bitcoin&logoColor=white"/> 
+      <img src="https://img.shields.io/badge/USDT-26A17B?style=flat-square&logo=tether&logoColor=white"/>
       <br><br>
     </td>
     <td align="center">
       <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=800&size=14&pause=200&color=F1C40F&vCenter=true&width=80&lines=MINING...;MINING..;MINING." style="vertical-align: middle;" alt="Mining" />
-      <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Pick.png" width="40" style="vertical-align: middle; margin-left: 5px;" alt="Pickaxe Digging" />
+      <img src="https://raw.githubusercontent.com/FuzyTVSadBoy/FuzyTVSadBoy/output/crypto_miner.gif" width="35" style="vertical-align: middle; margin-left: 5px;" alt="Pickaxe Digging" />
     </td>
   </tr>
 
@@ -70,12 +66,12 @@
     <td align="left">
       <br>
       <b>Roblox MB Rejoin Tool</b><br>
-      <img src="https://img.shields.io/badge/Roblox-000000?style=for-the-badge&logo=roblox&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Roblox-000000?style=flat-square&logo=roblox&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
       <br><br>
     </td>
     <td align="center">
-      <img src="https://img.shields.io/badge/%E2%9C%85_Active-2EA043?style=for-the-badge&logoColor=white" />
+      <img src="https://img.shields.io/badge/🟢_Active-2EA043?style=for-the-badge&logoColor=white" />
     </td>
   </tr>
 
@@ -83,11 +79,11 @@
     <td align="left">
       <br>
       <b>DoS Attacker</b><br>
-      <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kali-linux&logoColor=white"/>
       <br><br>
     </td>
     <td align="center">
-      <img src="https://img.shields.io/badge/%F0%9F%9B%91_Discontinued-DA3633?style=for-the-badge&logoColor=white" />
+      <img src="https://img.shields.io/badge/🛑_Discontinued-DA3633?style=for-the-badge&logoColor=white" />
     </td>
   </tr>
 
@@ -95,11 +91,12 @@
     <td align="left">
       <br>
       <b>Cày Thuê Roblox</b><br>
-      <img src="https://img.shields.io/badge/Roblox-FF0000?style=for-the-badge&logo=roblox&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Gaming_Services-FF0000?style=for-the-badge&logo=roblox&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Trading-111111?style=for-the-badge&logo=cashapp&logoColor=00FF00"/>
       <br><br>
     </td>
     <td align="center">
-      <img src="https://img.shields.io/badge/%F0%9F%9B%91_Discontinued-DA3633?style=for-the-badge&logoColor=white" />
+      <img src="https://img.shields.io/badge/🛑_Discontinued-DA3633?style=for-the-badge&logoColor=white" />
     </td>
   </tr>
 </table>

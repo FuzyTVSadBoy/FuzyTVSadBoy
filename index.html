@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyễn Thiện Vĩ | Profile Vip</title>
+    <style>
+        /* CSS CHỐNG ĐẠN & STYLE CHUẨN CÔNG NGHỆ */
+        :root {
+            --bg-color: #0d1117;
+            --text-color: #c9d1d9;
+            --main-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+            --neon-purple: #a371f7;
+            --neon-blue: #58a6ff;
+            --neon-green: #00FF00;
+        }
+
+        body {
+            font-family: 'Fira Code', monospace, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* BANNER HEADER "CẤP VIP" */
+        header {
+            width: 100vw;
+            height: 250px;
+            background: var(--main-gradient);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* NỀN HẠT MA TRẬN ĐỘNG */
+        #particles-js {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+        }
+
+        /* TÊN & DANH XƯNG CÓ HIỆU ỨNG GLITCH */
+        .header-content {
+            z-index: 2;
+            text-align: center;
+        }
+
+        .user-name {
+            font-size: 50px;
+            font-weight: 800;
+            color: white;
+            text-shadow: 0 0 10px rgba(255,255,255,0.7);
+            margin: 0;
+            animation: glitch 1s infinite;
+        }
+
+        .user-desc {
+            font-size: 18px;
+            color: white;
+            opacity: 0.9;
+        }
+
+        @keyframes glitch {
+            0% { transform: translate(0); }
+            20% { transform: translate(-2px, 2px); }
+            40% { transform: translate(-2px, -2px); }
+            60% { transform: translate(2px, 2px); }
+            80% { transform: translate(2px, -2px); }
+            100% { transform: translate(0); }
+        }
+
+        /* SECTION INTRO NHẢY MÚA */
+        .intro-container {
+            margin: 30px auto;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* TỰ CODE ANIMATION CHỮ NHẢY MÚA SIÊU MƯỢT */
+        .jumping-text {
+            font-size: 22px;
+            font-weight: 600;
+            color: var(--neon-blue);
+            cursor: pointer;
+        }
+
+        .jumping-text span {
+            display: inline-block;
+            transition: all 0.3s;
+        }
+
+        .jumping-text span:hover {
+            color: var(--neon-green);
+            transform: translateY(-10px) scale(1.2) rotate(10deg);
+            text-shadow: 0 0 15px currentColor;
+        }
+
+        /* TECH SKILLS VỚI AURA HÀO QUANG THẬT */
+        #skills {
+            width: 90%;
+            max-width: 1000px;
+            margin: 50px auto;
+        }
+
+        h2.section-title {
+            text-align: center;
+            color: var(--neon-purple);
+            border-bottom: 2px solid currentColor;
+            padding-bottom: 10px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .skill-card {
+            background-color: #161b22;
+            border-radius: 10px;
+            padding: 15px;
+            transition: all 0.3s;
+            position: relative;
+        }
+
+        /* AURA HÀO QUANG KHI DI CHUỘT VÀO */
+        .skill-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 20px rgba(163, 113, 247, 0.6);
+        }
+
+        .skill-card h3 {
+            color: white;
+            border-bottom: 1px solid rgba(255,255,255,0.2);
+            padding-bottom: 5px;
+        }
+
+        .skill-icons {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        .skill-icon {
+            filter: drop-shadow(0 0 10px var(--neon-purple));
+            transition: all 0.3s;
+        }
+
+        /* ICON TỰ ĐỘNG XOAY KHI DI CHUỘT */
+        .skill-icon:hover {
+            transform: scale(1.3) rotate(360deg);
+            filter: drop-shadow(0 0 15px var(--neon-green));
+        }
+
+        /* PROJECTS TABLE VỚI CÁI CUỐC ĐẬP VỠ BITCOIN */
+        #projects {
+            width: 90%;
+            max-width: 1000px;
+            margin: 50px auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #161b22;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+
+        th {
+            background-color: rgba(163, 113, 247, 0.2);
+            color: var(--neon-purple);
+        }
+
+        td.center {
+            text-align: center;
+        }
+
+        /* HOẠT ẢNH CÂY CUỐC CRYPTO TỰ TẠO (CSS/JS) */
+        .crypto-pickaxe-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            position: relative;
+        }
+
+        /* Cây cuốc chim custom */
+        .pickaxe {
+            font-size: 30px;
+            animation: swing 0.6s infinite alternate;
+        }
+
+        /* TỰ CODE ANIMATION ĐẬP MẠNH & CÓ HIỆU ỨNG HẠT */
+        @keyframes swing {
+            0% { transform: rotate(10deg); }
+            100% { transform: rotate(-30deg); }
+        }
+
+        /* Khối Bitcoin sẽ nổ ra hạt khi bị đập */
+        .bitcoin-block {
+            width: 40px;
+            height: 40px;
+            position: relative;
+            cursor: pointer;
+        }
+
+        .bitcoin-block img {
+            width: 100%;
+            height: 100%;
+            transition: all 0.2s;
+        }
+
+        .bitcoin-block:hover img {
+            transform: scale(1.3);
+        }
+
+        /* Container hạt khi đập */
+        .crypto-particles {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+        }
+
+        .particle {
+            position: absolute;
+            font-size: 14px;
+            opacity: 0;
+        }
+
+        /* FOOTER ĐỘNG GRADIENT */
+        footer {
+            width: 100vw;
+            height: 100px;
+            background: var(--main-gradient);
+            animation: gradient-flow 5s infinite alternate;
+            margin-top: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @keyframes gradient-flow {
+            0% { background-position: 0% 50%; }
+            100% { background-position: 100% 50%; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div id="particles-js"></div>
+        <div class="header-content">
+            <h1 class="user-name">Nguyễn Thiện Vĩ</h1>
+            <p class="user-desc">Kid 2k12 | Android Modder | Tool Developer</p>
+        </div>
+    </header>
+
+    <section class="intro-container">
+        <div class="jumping-text" id="intro-text">
+            ⚡ Android Modding and System Exploring ⚡
+        </div>
+    </section>
+
+    ---
+
+    <section id="skills">
+        <h2 class="section-title">🔥 Tech Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>🎯 Core Stack</h3>
+                <div class="skill-icons">
+                    <img class="skill-icon" src="https://skillicons.dev/icons?i=py,lua,go&theme=dark" alt="Core Stack" />
+                </div>
+            </div>
+            <div class="skill-card">
+                <h3>📱 System (Mod Môi Trường)</h3>
+                <div class="skill-icons">
+                    <img class="skill-icon" src="https://skillicons.dev/icons?i=android,linux,bash,regex&theme=dark" alt="System" />
+                </div>
+            </div>
+            <div class="skill-card">
+                <h3>🛠️ Development Tools</h3>
+                <div class="skill-icons">
+                    <img class="skill-icon" src="https://skillicons.dev/icons?i=git,github,vscode,pycharm&theme=dark" alt="Tools" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    ---
+
+    <section id="projects">
+        <h2 class="section-title">💀 Legacy & Past Works</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>📂 Dự Án / Project</th>
+                    <th class="center">📌 Trạng Thái / Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <b>Crypto Miner (MMO)</b><br>
+                        <img src="https://img.shields.io/badge/Bitcoin-F7931A?style=for-the-badge&logo=bitcoin&logoColor=white"/> 
+                        <img src="https://img.shields.io/badge/USDT-26A17B?style=for-the-badge&logo=tether&logoColor=white"/>
+                    </td>
+                    <td class="center">
+                        <div class="crypto-pickaxe-container">
+                            <img src="https://img.shields.io/badge/Mining...-F1C40F?style=for-the-badge&logoColor=white" style="vertical-align: middle;" />
+                            <div class="pickaxe">⛏️</div>
+                            <div class="bitcoin-block" id="mining-block">
+                                <img src="https://skillicons.dev/icons?i=bitcoin" alt="BTC Block" />
+                                <div class="crypto-particles" id="particles-container"></div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>Roblox MB Rejoin Tool</b><br>
+                        <img src="https://img.shields.io/badge/Roblox-000000?style=for-the-badge&logo=roblox&logoColor=white"/>
+                        <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+                    </td>
+                    <td class="center">
+                        <img src="https://img.shields.io/badge/🟢_Active-2EA043?style=for-the-badge&logoColor=white" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>DoS Attacker</b><br>
+                        <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white"/>
+                        <img src="https://img.shields.io/badge/Network-000000?style=for-the-badge&logo=cisco&logoColor=white"/>
+                    </td>
+                    <td class="center">
+                        <img src="https://img.shields.io/badge/🛑_Discontinued-DA3633?style=for-the-badge&logoColor=white" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>Cày Thuê Roblox</b><br>
+                        <img src="https://img.shields.io/badge/Gaming_Services-FF0000?style=for-the-badge&logo=roblox&logoColor=white"/>
+                        <img src="https://img.shields.io/badge/Trading-111111?style=for-the-badge&logo=cashapp&logoColor=00FF00"/>
+                    </td>
+                    <td class="center">
+                        <img src="https://img.shields.io/badge/🛑_Discontinued-DA3633?style=for-the-badge&logoColor=white" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    ---
+
+    <footer>
+        <div align="center">
+            <h3>💫 Talk is cheap, show me the code... or the bricked phone. 💫</h3>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    
+    <script>
+        /* 1. KÍCH HOẠT NỀN HẠT MA TRẬN */
+        particlesJS("particles-js", {
+            particles: {
+                number: { value: 100, density: { enable: true, value_area: 800 } },
+                color: { value: "#ffffff" },
+                shape: { type: "circle" },
+                opacity: { value: 0.5, random: true },
+                size: { value: 3, random: true },
+                line_linked: { enable: true, distance: 150, color: "#ffffff", opacity: 0.4, width: 1 },
+                move: { enable: true, speed: 3, direction: "none", random: true, straight: false, out_mode: "out" }
+            }
+        });
+
+        /* 2. LÀM CHO CHỮ CÁI INTRO TỰ ĐỘNG NHẢY MÚA */
+        const textElement = document.getElementById('intro-text');
+        const text = textElement.textContent.trim();
+        textElement.textContent = ''; // Xóa text gốc
+
+        // Chia text thành từng chữ cái và bọc vào thẻ span
+        text.split('').forEach(char => {
+            const span = document.createElement('span');
+            span.textContent = char === ' ' ? '\u00A0' : char; // Xử lý khoảng trắng
+            textElement.appendChild(span);
+        });
+
+        // Tự động nhảy múa từng chữ cái theo nhịp
+        const spans = textElement.querySelectorAll('span');
+        let index = 0;
+        function autoJump() {
+            spans[index].style.color = 'var(--neon-purple)';
+            spans[index].style.transform = 'translateY(-10px) scale(1.2)';
+            spans[index].style.textShadow = '0 0 15px currentColor';
+
+            // Reset sau 0.3s
+            const currentSpan = spans[index];
+            setTimeout(() => {
+                currentSpan.style.color = '';
+                currentSpan.style.transform = '';
+                currentSpan.style.textShadow = '';
+            }, 300);
+
+            index = (index + 1) % spans.length;
+            setTimeout(autoJump, 100); // Nhịp nhảy múa
+        }
+        autoJump();
+
+        /* 3. LÀM CHO CUỐC CRYPTO ĐẬP VỠ BITCOIN VÀ TẠO RA HIỆU ỨNG HẠT LƠ LỬNG */
+        const miningBlock = document.getElementById('mining-block');
+        const pickaxe = miningBlock.previousElementSibling; // Cây cuốc chim
+        const particlesContainer = document.getElementById('particles-container');
+
+        // Tạo ra các hạt khi bị đập
+        function spawnParticles(num) {
+            const cryptoSymbols = ['₿', '₿', 'U', 'U', '🪙']; // Các ký hiệu Crypto bay ra
+            for(let i = 0; i < num; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                particle.textContent = cryptoSymbols[Math.floor(Math.random() * cryptoSymbols.length)];
+                
+                // Set màu neon ngẫu nhiên
+                particle.style.color = Math.random() > 0.5 ? 'var(--neon-purple)' : 'var(--neon-green)';
+                
+                // Set vị trí ngẫu nhiên xung quanh
+                const x = (Math.random() - 0.5) * 60; // Bay ra trái/phải 30px
+                const y = (Math.random() - 0.5) * 60; // Bay ra trên/dưới 30px
+                const deg = (Math.random() - 0.5) * 180; // Xoay 90 độ
+
+                particlesContainer.appendChild(particle);
+
+                // Animation hạt lơ lửng và bay ra theo chuột
+                particle.animate([
+                    { transform: 'translate(0, 0)', opacity: 0 },
+                    { transform: `translate(${x}px, ${y}px) rotate(${deg}deg)`, opacity: 1, offset: 0.1 },
+                    { transform: `translate(${x*1.5}px, ${y*1.5}px) rotate(${deg*1.5}deg)`, opacity: 0, offset: 1 }
+                ], {
+                    duration: 1000 + Math.random() * 500, // Thời gian lơ lửng
+                    easing: 'ease-out',
+                    fill: 'forwards'
+                });
+
+                // Xóa hạt sau khi bay xong
+                setTimeout(() => particle.remove(), 1500);
+            }
+        }
+
+        // Đồng bộ cây cuốc chim đập và khối nổ ra hạt
+        // (Hoạt ảnh đập nhanh 0.3s, hoạt ảnh nổ hạt 1s)
+        setInterval(() => {
+            spawnParticles(5); // Tạo ra 5 hạt mỗi lần đập
+        }, 1200); // Khớp nhịp đập
+
+        // Thêm hiệu ứng chuột bay lơ lửng xung quanh chuột
+        document.addEventListener('mousemove', (e) => {
+            const particles = document.querySelectorAll('.particle');
+            particles.forEach(p => {
+                // Làm cho các khối Bitcoin hiện ra hiệu ứng hạt bay lơ lửng xung quanh chuột
+                const rect = p.getBoundingClientRect();
+                const dx = e.clientX - (rect.left + rect.width / 2);
+                const dy = e.clientY - (rect.top + rect.height / 2);
+                const dist = Math.sqrt(dx*dx + dy*dy);
+                
+                // Nếu chuột ở gần (100px), các hạt sẽ lơ lửng lại gần chuột
+                if(dist < 100) {
+                    p.style.transform = `translate(${dx*0.1}px, ${dy*0.1}px) scale(1.1)`;
+                } else {
+                    p.style.transform = ''; // Reset khi xa
+                }
+            });
+        });
+    </script>
+</body>
+</html>

@@ -10,7 +10,7 @@
 
 ### ⚡ `whoami`
 
-```console
+console
 root@FuzyTVSadBoy:~$ cat profile.txt
 > BORN: 2012
 > ROLE: System Modder, Tool Developer & Creator

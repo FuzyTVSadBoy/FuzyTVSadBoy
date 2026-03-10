@@ -1,42 +1,39 @@
 <div align="center">
 
-# 💻 ＳＹＳＴＥＭ ＯＶＥＲＲＩＤＥ 💻
-
+💻 ＨỆ ＴＨỐＮＧ ＢỊ ＸÂＭ ＮＨẬＰ 💻
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00FF00&background=00000000&center=true&vCenter=true&width=500&lines=Root+User:+Nguy%E1%BB%85n+Thi%E1%BB%87n+V%E1%BB%89;System+Booting...;Loading+Android+Mod+Modules...;Executing+Scripts..." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00FF00&background=00000000&center=true&vCenter=true&width=600&lines=Root:+Nguy%E1%BB%85n+Thi%E1%BB%87n+V%C4%A9;Born+in+2012+-+Kid+2k12;V%E1%BB%8Dc+th%E1%BB%A7+Android+ch%C3%ADnh+hi%E1%BB%87u;%C4%90ang+k%E1%BA%BFt+n%E1%BB%91i+h%E1%BB%87+th%E1%BB%91ng..." alt="Typing SVG" />
 </a>
 
-<br/>
+⚡ whoami
+TÊN: Nguyễn Thiện Vĩ
+NĂM SINH: 2012 (Kid 2k12 nhưng trình không hề nhỏ)
+ĐỊNH VỊ: Vọc Thủ / Kẻ Khám Phá Hệ Thống
+CHÂM NGÔN: "Từng sợ hãi khi đối diện Soft-Brick, bây giờ Hard-Brick chỉ là trò trẻ con."
 
-### ⚡ `whoami`
-
-console
-root@FuzyTVSadBoy:~$ cat profile.txt
-> BORN: 2012
-> ROLE: System Modder, Tool Developer & Creator
-> MINDSET: "Hard-Brick is just child's play."
-> STATUS: Upgrading Python tools to Golang & Exploring Thagore language.
-🛠️ cat /skills/tech_stack.json
+🛠️ cat /ky_nang/chuyen_mon.json
 <p align="center">
-<img src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dpy,go,lua,android,linux,bash,regex,git,github" />
+<img src="https://skillicons.dev/icons?i=py,lua,android,linux,bash,regex,git,github" />
 </p>
 
-🎬 cat /skills/creative.json
 <p align="center">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Video_Editing-CapCut_Pro-000000%3Fstyle%3Dfor-the-badge%26logo%3Dcapcut%26logoColor%3Dwhite" />
+<img src="https://img.shields.io/badge/Python-Intermediate-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/Lua-Basic-2C2D72?style=for-the-badge&logo=lua&logoColor=white" />
+<img src="https://img.shields.io/badge/Android_Modder-V%E1%BB%8Dc_Th%E1%BB%A7-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
+<img src="https://img.shields.io/badge/Crypto_Miner-MMO-F7931A?style=for-the-badge&logo=bitcoin&logoColor=white" />
 </p>
 
-🔥 htop - Live Metrics
+🔥 htop - Thống Kê Máy Chủ
 <p align="center">
-<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3DFuzyTVSadBoy%26show_icons%3Dtrue%26theme%3Dtokyonight%26hide_border%3Dtrue%26title_color%3D00ff00%26icon_color%3D00ff00" width="48%" />
-<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/top-langs/%3Fusername%3DFuzyTVSadBoy%26layout%3Dcompact%26theme%3Dtokyonight%26hide_border%3Dtrue%26title_color%3D00ff00" width="48%" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=FuzyTVSadBoy&show_icons=true&theme=tokyonight&hide_border=true&title_color=00ff00&icon_color=00ff00&text_color=ffffff" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FuzyTVSadBoy&layout=compact&theme=tokyonight&hide_border=true&title_color=00ff00&icon_color=00ff00&text_color=ffffff" />
 </p>
 
-📂 ls -la /archive/legacy_projects/
-[x] [200 OK] Roblox Boosting & Rejoin Tools
+📂 ls -la /du_an/ho_so_mat/
+[x] 🛑 [DISCONTINUED] Cày thuê Roblox
 
-[x] [200 OK] Crypto Miner (MMO) Operations
+[x] 🛑 [DISCONTINUED] DoS Attacker
 
-[x] [403 FORBIDDEN] DoS Attack & Cloud Server Exploration
+[x] ⚠️ [N/A] Cloud Server Exploiter (Nah, Crack Cloud Server Google liệu có dễ đến thế?)
 
 </div>

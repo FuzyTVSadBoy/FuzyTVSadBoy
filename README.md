@@ -1,23 +1,19 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=533b7c&height=180&section=header&text=Nguyễn%20Thiện%20Vĩ&fontSize=55&fontColor=ffffff&animation=twinkling" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=200&section=header&text=Nguyễn%20Thiện%20Vĩ&fontSize=55&fontColor=ffffff&animation=twinkling&desc=Android%20Modder%20%7C%20Tool%20Developer&descSize=20&descAlignY=75" width="100%" />
 
-<br>
+<br><br>
 
 <a href="https://github.com/FuzyTVSadBoy">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=58A6FF&center=true&vCenter=true&width=800&lines=⚡+Kid+2k12+%7C+Android+Modder+%7C+Tool+Developer+⚡;🔥+Từng+sợ+Soft-Brick,+bây+giờ+Hard-Brick+là+muỗi!;☁️+Mục+tiêu:+Cloud+Server+Exploiter" alt="Typing Animation" />
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=700&size=20&pause=1000&color=00FF00&center=true&vCenter=true&width=600&lines=⚡+Kid+2k12+Ch%C3%ADnh+Hi%E1%BB%87u+⚡;🔥+V%E1%BB%8Dc+Th%E1%BB%A7+Android+Modder;💻+Nh%C3%A0+Ph%C3%A1t+Tri%E1%BB%83n+Tool" alt="Hiệu ứng gõ chữ" />
 </a>
 
 <br><br>
 
 <p align="center">
   <i>"Từng sợ hãi khi đối diện Soft-Brick, bây giờ Hard-Brick chỉ là trò trẻ con."</i><br>
-  <code>Xây dựng: <a href="http://thagore.com" style="text-decoration: none; color: #58A6FF;">Thagore.com</a> | Mục tiêu: Crack Cloud Server Google (Liệu có dễ?)</code>
+  <code>Mục tiêu: Cloud Server Exploiter (Nah, Crack Cloud Server Google liệu có dễ đến thế?)</code>
 </p>
-
-<br>
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="80%" />
 
 <br><br>
 
@@ -35,15 +31,13 @@
 <img src="https://skillicons.dev/icons?i=git,github,vscode" />
 
 <br><br>
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="80%" />
-<br><br>
 
 <p align="center"><b><font size="5">💀 Legacy & Past Works</font></b></p>
 
 <table width="90%" align="center">
   <tr>
-    <th width="65%" align="left"><font size="3">📂 Tên Dự Án (Projects)</font></th>
-    <th width="35%" align="center"><font size="3">📌 Trạng Thái (Status)</font></th>
+    <th width="60%" align="left"><font size="3">📂 Tên Dự Án (Projects)</font></th>
+    <th width="40%" align="center"><font size="3">📌 Trạng Thái (Status)</font></th>
   </tr>
   
   <tr>
@@ -55,8 +49,8 @@
       <br><br>
     </td>
     <td align="center">
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=14&pause=300&color=F1C40F&vCenter=true&width=80&lines=MINING...;MINING..;MINING." />
-      <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Pick.png" width="35" style="vertical-align: middle; margin-left: 5px;" />
+      <img src="https://img.shields.io/badge/MINING...-F1C40F?style=for-the-badge&logoColor=white" style="vertical-align: middle;" />
+      <img src="https://media.tenor.com/tHqgG2A2J0UAAAAi/minecraft-pickaxe.gif" width="35" style="vertical-align: middle; margin-left: 5px;" />
     </td>
   </tr>
 

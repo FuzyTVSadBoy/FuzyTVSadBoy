@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=533b7c&height=150&section=header&text=Nguyễn%20Thiện%20Vĩ&fontSize=45&fontColor=ffffff&desc=Kid%202k12%20%7C%20Android%20Modder%20%7C%20Tool%20Developer&descSize=16&descColor=ffffff" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=533b7c&height=180&section=header&text=Nguyễn%20Thiện%20Vĩ&fontSize=45&fontColor=ffffff&desc=Kid%202k12%20%7C%20Android%20Modder%20%7C%20System%20Explorer&descSize=16&descColor=ffffff" width="100%" />
 </p>
 
 <p align="center">
@@ -15,19 +15,20 @@
 
 <h3 align="center">🔥 Tech Skills</h3>
 
-<p align="center"><b>🎯 Core Stack</b></p>
+<p align="center"><b>🎯 Ngôn Ngữ Lập Trình (Core Stack)</b></p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=py,lua,go" />
 </p>
 
-<p align="center"><b>📱 System & Infrastructure</b></p>
+<p align="center"><b>📱 Môi Trường & Hệ Thống (System)</b></p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=android,linux,bash,regex" />
 </p>
 
-<p align="center"><b>🛠️ Development Tools</b></p>
+<p align="center"><b>🛠️ Công Cụ Phát Triển & Media (Dev Tools)</b></p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=git,github,vscode" />
+  <img src="https://img.shields.io/badge/CapCut_Pro-000000?style=flat-square&logo=capcut&logoColor=white" />
 </p>
 
 ---
@@ -43,8 +44,8 @@
   <tr>
     <td align="left">
       <b>Crypto Miner (MMO)</b><br>
-      <img src="https://img.shields.io/badge/Bitcoin-F7931A?style=flat-square&logo=bitcoin&logoColor=white"/> 
-      <img src="https://img.shields.io/badge/USDT-26A17B?style=flat-square&logo=tether&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Bitcoin-F7931A?style=for-the-badge&logo=bitcoin&logoColor=white"/> 
+      <img src="https://img.shields.io/badge/USDT-26A17B?style=for-the-badge&logo=tether&logoColor=white"/>
     </td>
     <td align="center">
       <img src="https://img.shields.io/badge/Mining...-F1C40F?style=for-the-badge&logoColor=white" />
@@ -55,8 +56,8 @@
   <tr>
     <td align="left">
       <b>Roblox MB Rejoin Tool</b><br>
-      <img src="https://img.shields.io/badge/Roblox-000000?style=flat-square&logo=roblox&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Roblox-000000?style=for-the-badge&logo=roblox&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
     </td>
     <td align="center">
       <img src="https://img.shields.io/badge/🟢_Active-2EA043?style=for-the-badge&logoColor=white" />
@@ -66,8 +67,8 @@
   <tr>
     <td align="left">
       <b>DoS Attacker</b><br>
-      <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kali-linux&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Network-000000?style=flat-square&logo=cisco&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Network-000000?style=for-the-badge&logo=cisco&logoColor=white"/>
     </td>
     <td align="center">
       <img src="https://img.shields.io/badge/🛑_Discontinued-DA3633?style=for-the-badge&logoColor=white" />
@@ -77,8 +78,8 @@
   <tr>
     <td align="left">
       <b>Cày Thuê Roblox</b><br>
-      <img src="https://img.shields.io/badge/Gaming_Services-FF0000?style=flat-square&logo=roblox&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Trading-111111?style=flat-square&logo=cashapp&logoColor=00FF00"/>
+      <img src="https://img.shields.io/badge/Roblox_Boosting-FF0000?style=for-the-badge&logo=roblox&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Trading-111111?style=for-the-badge&logo=cashapp&logoColor=00FF00"/>
     </td>
     <td align="center">
       <img src="https://img.shields.io/badge/🛑_Discontinued-DA3633?style=for-the-badge&logoColor=white" />

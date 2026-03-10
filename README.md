@@ -1,46 +1,42 @@
 <div align="center">
 
-# ⚡ FuzyTVSadBoy - The Digital Explorer ⚡
+# 💻 ＳＹＳＴＥＭ ＯＶＥＲＲＩＤＥ 💻
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=9B59B6&center=true&vCenter=true&width=435&lines=Nguy%E1%BB%85n+Thi%E1%BB%87n+V%E1%BB%89;Born+in+2012;Intermediate+Python+Developer;Android+Modder+%26+V%E1%BB%8Dc+Th%E1%BB%A7;Hard-Brick+is+just+a+toy+for+me" alt="Typing SVG" />
-
----
-
-### 🛠️ My Digital Lab
-
-| Category | Skills | Status |
-| :--- | :--- | :--- |
-| **Programming** | `Python` (Intermediate) • `Lua` (Basic) | 🟢 Active |
-| **Android Mod** | `Kernel Tuning` • `Root/Magisk` • `Recovery` | 🛡️ Expert |
-| **Legacy Works** | `Roblox Boosting` • `DoS Research` | 🛑 Discontinued |
-| **Mining** | `Crypto Miner (MMO)` | 🪙 Mining... |
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00FF00&background=00000000&center=true&vCenter=true&width=500&lines=Root+User:+Nguy%E1%BB%85n+Thi%E1%BB%87n+V%E1%BB%89;System+Booting...;Loading+Android+Mod+Modules...;Executing+Scripts..." alt="Typing SVG" />
+</a>
 
 <br/>
 
-### 🚀 Tech Stack Icons
+### ⚡ `whoami`
+
+```console
+root@FuzyTVSadBoy:~$ cat profile.txt
+> BORN: 2012
+> ROLE: System Modder, Tool Developer & Creator
+> MINDSET: "Hard-Brick is just child's play."
+> STATUS: Upgrading Python tools to Golang & Exploring Thagore language.
+🛠️ cat /skills/tech_stack.json
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,lua,linux,android,termux,discord,pycharm,vscode,github" />
-  </a>
+<img src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dpy,go,lua,android,linux,bash,regex,git,github" />
 </p>
 
----
-
-### 📊 My GitHub Journey
+🎬 cat /skills/creative.json
 <p align="center">
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=FuzyTVSadBoy&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FuzyTVSadBoy&layout=compact&theme=dracula" />
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/Video_Editing-CapCut_Pro-000000%3Fstyle%3Dfor-the-badge%26logo%3Dcapcut%26logoColor%3Dwhite" />
 </p>
 
----
+🔥 htop - Live Metrics
+<p align="center">
+<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3DFuzyTVSadBoy%26show_icons%3Dtrue%26theme%3Dtokyonight%26hide_border%3Dtrue%26title_color%3D00ff00%26icon_color%3D00ff00" width="48%" />
+<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/top-langs/%3Fusername%3DFuzyTVSadBoy%26layout%3Dcompact%26theme%3Dtokyonight%26hide_border%3Dtrue%26title_color%3D00ff00" width="48%" />
+</p>
 
-### 💬 "Talk is cheap, show me the code... or the bricked phone."
-> Từng sợ hãi khi đối diện Soft-Brick, bây giờ Hard-Brick chỉ là trò trẻ con.
+📂 ls -la /archive/legacy_projects/
+[x] [200 OK] Roblox Boosting & Rejoin Tools
+
+[x] [200 OK] Crypto Miner (MMO) Operations
+
+[x] [403 FORBIDDEN] DoS Attack & Cloud Server Exploration
 
 </div>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FuzyTVSadBoy/FuzyTVSadBoy/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FuzyTVSadBoy/FuzyTVSadBoy/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/FuzyTVSadBoy/FuzyTVSadBoy/output/github-contribution-grid-snake.svg">
-</picture>

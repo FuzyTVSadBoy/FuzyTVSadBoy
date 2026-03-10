@@ -12,12 +12,19 @@
 <div align="center">
 
 ### 🎯 **Core Stack**
+<br>
 <img src="https://skillicons.dev/icons?i=py,lua,go&theme=dark" alt="Core Stack" />
+<br><br>
 
-### 📱 **System & Infrastructure (Mod Môi Trường)** <img src="https://skillicons.dev/icons?i=android,linux,bash,regex&theme=dark" alt="System" />
+### 📱 **System & Infrastructure (Mod Môi Trường)**
+<br>
+<img src="https://skillicons.dev/icons?i=android,linux,bash,regex&theme=dark" alt="System" />
+<br><br>
 
 ### 🛠️ **Development Tools**
+<br>
 <img src="https://skillicons.dev/icons?i=git,github,vscode,pycharm&theme=dark" alt="Tools" />
+<br><br>
 
 </div>
 

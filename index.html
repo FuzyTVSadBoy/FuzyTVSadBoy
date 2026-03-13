@@ -8,7 +8,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Russo+One&family=Righteous&family=Fira+Code:wght@400;700&family=Baloo+2:wght@700;800&family=Itim&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <style>
-/* ─── TOKENS ─── */
 :root{
   --bg:  #030305;
   --c:   #00f0ff;
@@ -16,7 +15,6 @@
   --k:   #ff007f;
   --y:   #f7931a;
   --g:   #00ff41;
-  /* iOS-grade easing */
   --ease: cubic-bezier(0.25,0.46,0.45,0.94);
   --spring: cubic-bezier(0.34,1.56,0.64,1);
 }
@@ -33,17 +31,14 @@ body{
 .cursor-glow{position:fixed;width:56px;height:56px;background:radial-gradient(circle,rgba(0,240,255,0.35) 0%,transparent 72%);border-radius:50%;pointer-events:none;transform:translate(-50%,-50%);z-index:9999;mix-blend-mode:screen;transition:transform 0.06s linear;}
 .container{position:relative;z-index:1;width:min(92%,1050px);margin-top:6vh;padding-bottom:90px;}
 
-/* ─── CLICK FX ─── */
 .cr{position:fixed;border-radius:50%;border:1.5px solid;pointer-events:none;z-index:9998;transform:translate(-50%,-50%);animation:cr-out 0.7s var(--ease) forwards;}
 @keyframes cr-out{0%{width:0;height:0;opacity:.9;}100%{width:120px;height:120px;opacity:0;}}
 .cs{position:fixed;pointer-events:none;z-index:9997;transform:translate(-50%,-50%);}
 .cs span{position:absolute;border-radius:50%;}
 
-/* ─── PAGE REVEAL ─── */
 .rev{opacity:0;transform:translateY(32px);animation:rev-up 0.8s var(--ease) forwards;will-change:transform,opacity;}
 @keyframes rev-up{to{opacity:1;transform:translateY(0);}}
 
-/* ─── HEADER ─── */
 .header{text-align:center;margin-bottom:50px;}
 .title-row{display:flex;align-items:center;justify-content:center;gap:14px;}
 .title{font-family:'Baloo 2','Itim',cursive;font-size:clamp(38px,6.5vw,68px);font-weight:800;margin:0;letter-spacing:2px;display:inline-block;}
@@ -55,14 +50,12 @@ body{
 .title-row{animation:float-idle 5s ease-in-out infinite;animation-delay:2.5s;}
 @keyframes float-idle{0%,100%{transform:translateY(0);}50%{transform:translateY(-5px);}}
 
-/* AVATAR */
 .avatar-wrap{width:62px;height:62px;position:relative;flex-shrink:0;margin-top:-15px;transform-origin:bottom center;animation:avatar-peek 8s ease-in-out infinite;animation-delay:3s;opacity:0;animation-fill-mode:forwards;}
 .avatar-img-node{width:100%;height:100%;display:block;object-fit:cover;object-position:center 15%;border-radius:50%;position:relative;z-index:2;}
 .avatar-border{position:absolute;inset:0;border-radius:50%;border:2px solid rgba(0,240,255,0.9);box-shadow:0 0 12px rgba(0,240,255,0.6),0 0 25px rgba(176,38,255,0.4);z-index:3;pointer-events:none;animation:avatar-glow 3s ease-in-out infinite;}
 @keyframes avatar-glow{0%,100%{box-shadow:0 0 12px rgba(0,240,255,0.6),0 0 25px rgba(176,38,255,0.4);}50%{box-shadow:0 0 20px rgba(0,240,255,0.9),0 0 38px rgba(176,38,255,0.7),0 0 55px rgba(255,0,127,0.25);}}
 @keyframes avatar-peek{0%,5%{transform:translateY(-120%) rotate(-12deg);opacity:0;}15%,45%{transform:translateY(0) rotate(-10deg);opacity:1;}55%,80%{transform:translateY(0) rotate(30deg);opacity:1;}90%,100%{transform:translateY(-120%) rotate(-12deg);opacity:0;}}
 
-/* SUBTITLE / TYPEWRITER */
 .subtitle{font-size:clamp(12px,2vw,16px);color:var(--c);margin-top:14px;letter-spacing:3px;animation:subtitle-in 0.8s var(--ease) both;animation-delay:2s;}
 @keyframes subtitle-in{from{opacity:0;letter-spacing:8px;}to{opacity:1;letter-spacing:3px;}}
 .tw-wrapper{margin-top:18px;border:1px solid rgba(0,240,255,0.28);border-radius:6px;padding:10px 18px;display:inline-block;background:rgba(0,240,255,0.03);animation:fade-in 0.6s var(--ease) both;animation-delay:2.2s;}
@@ -71,12 +64,10 @@ body{
 .tw-cursor{display:inline-block;width:2px;height:1em;background:var(--g);margin-left:2px;vertical-align:middle;animation:blink 0.85s step-end infinite;}
 @keyframes blink{0%,100%{opacity:1;}50%{opacity:0;}}
 
-/* SECTION TITLE */
 .section-title{font-family:'Russo One',sans-serif;font-size:clamp(14px,2.5vw,20px);color:var(--c);letter-spacing:3px;margin:40px 0 20px;text-shadow:0 0 10px rgba(0,240,255,0.45);position:relative;}
 .section-title::after{content:'';position:absolute;bottom:-6px;left:50%;transform:translateX(-50%);width:0;height:1px;background:var(--c);animation:line-expand 1s var(--ease) forwards 0.3s;box-shadow:0 0 7px var(--c);}
 @keyframes line-expand{to{width:120px;}}
 
-/* ─── SKILL CARDS ─── */
 .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
 .card{background:linear-gradient(135deg,rgba(0,240,255,0.03) 0%,rgba(176,38,255,0.05) 100%);border:1px solid rgba(0,240,255,0.18);border-radius:14px;padding:22px 16px;text-align:center;position:relative;overflow:hidden;transition:transform 0.4s var(--ease),box-shadow 0.4s var(--ease),border-color 0.4s var(--ease);}
 .card::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(0,240,255,0.07),rgba(176,38,255,0.07));opacity:0;transition:opacity 0.4s var(--ease);}
@@ -84,13 +75,11 @@ body{
 .card:hover::before{opacity:1;}
 .card h3{font-family:'Fira Code',monospace;font-size:12px;color:var(--c);letter-spacing:2px;margin:0 0 14px;text-shadow:0 0 7px var(--c);}
 
-/* SKILL ICONS – subtle hover */
 .skill-icons{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;width:100%;align-items:center;}
 .skill-icons img{height:48px;width:auto;transition:transform 0.35s var(--spring),filter 0.35s var(--ease),opacity 0.3s var(--ease);filter:drop-shadow(0 0 3px rgba(255,255,255,0.1));opacity:1;}
 .skill-icons:hover img{opacity:0.2;filter:drop-shadow(0 0 1px rgba(255,255,255,0.02))!important;}
 .skill-icons img:hover{transform:scale(1.28) translateY(-4px);opacity:1!important;}
 
-/* Per-logo aura (toned down) */
 img[alt="Python"]:hover {filter:drop-shadow(0 0 8px #3776AB) drop-shadow(0 0 16px #FFD343) brightness(1.15)!important;}
 img[alt="Lua"]:hover    {filter:drop-shadow(0 0 8px #9999ff) drop-shadow(0 0 16px #5050cc) brightness(1.15)!important;}
 img[alt="Go"]:hover     {filter:drop-shadow(0 0 8px #00ACD7) drop-shadow(0 0 16px #7FD5EA) brightness(1.15)!important;}
@@ -102,10 +91,8 @@ img[alt="GitHub"]:hover {filter:drop-shadow(0 0 8px #aaaaaa) drop-shadow(0 0 16p
 img[alt="VSCode"]:hover {filter:drop-shadow(0 0 8px #007ACC) drop-shadow(0 0 16px #3faaee) brightness(1.15)!important;}
 img[alt="PyCharm"]:hover{filter:drop-shadow(0 0 8px #21D789) drop-shadow(0 0 16px #FFB700) brightness(1.15)!important;}
 
-/* ─── HUD LIST ─── */
 .hud-list{display:flex;flex-direction:column;gap:24px;}
 
-/* ── Spinning border wrapper (no corner gems) ── */
 .hud-wrap{
   position:relative;
   border-radius:20px;
@@ -113,7 +100,6 @@ img[alt="PyCharm"]:hover{filter:drop-shadow(0 0 8px #21D789) drop-shadow(0 0 16p
   isolation:isolate;
   transition:transform 0.4s var(--ease), filter 0.4s var(--ease);
 }
-/* Animated conic gradient ring */
 .hud-wrap::before{
   content:'';position:absolute;inset:0;border-radius:20px;z-index:0;
   background:conic-gradient(from 0deg,
@@ -131,7 +117,6 @@ img[alt="PyCharm"]:hover{filter:drop-shadow(0 0 8px #21D789) drop-shadow(0 0 16p
 .hud-wrap:hover::before{opacity:1;}
 @keyframes hud-spin{to{filter:hue-rotate(360deg);}}
 
-/* Subtle outer glow ring */
 .hud-wrap::after{
   content:'';position:absolute;inset:-3px;border-radius:23px;z-index:-1;
   background:conic-gradient(from 0deg,var(--c),var(--p),var(--k),var(--c));
@@ -142,7 +127,6 @@ img[alt="PyCharm"]:hover{filter:drop-shadow(0 0 8px #21D789) drop-shadow(0 0 16p
 }
 .hud-wrap:hover::after{opacity:0.35;}
 
-/* Inner panel */
 .hud-inner{
   position:relative;z-index:2;
   display:flex;align-items:center;justify-content:space-between;
@@ -153,7 +137,6 @@ img[alt="PyCharm"]:hover{filter:drop-shadow(0 0 8px #21D789) drop-shadow(0 0 16p
   transition:transform 0.4s var(--ease);
   will-change:transform;
 }
-/* scan line */
 .hud-inner::after{
   content:'';position:absolute;top:0;left:-100%;width:55%;height:1px;
   background:linear-gradient(90deg,transparent,rgba(0,240,255,0.6),transparent);
@@ -164,7 +147,6 @@ img[alt="PyCharm"]:hover{filter:drop-shadow(0 0 8px #21D789) drop-shadow(0 0 16p
 
 .hud-info{display:flex;flex-direction:column;gap:10px;}
 
-/* ── PROJ NAME – neon text with soft glow ── */
 .proj-name{
   font-family:'Russo One',sans-serif;
   font-size:clamp(13px,2vw,16px);
@@ -184,7 +166,6 @@ img[alt="PyCharm"]:hover{filter:drop-shadow(0 0 8px #21D789) drop-shadow(0 0 16p
 .tags>img:hover{transform:scale(1.08) translateY(-2px);filter:brightness(1.15);}
 .sys-status{display:flex;flex-direction:column;align-items:center;gap:8px;flex-shrink:0;}
 
-/* ── BADGE – polished iOS-style ── */
 .badge{
   display:flex;align-items:center;gap:8px;
   padding:7px 15px;border-radius:20px;
@@ -199,7 +180,6 @@ img[alt="PyCharm"]:hover{filter:drop-shadow(0 0 8px #21D789) drop-shadow(0 0 16p
   background:linear-gradient(135deg,rgba(255,255,255,0.08) 0%,transparent 60%);
   pointer-events:none;
 }
-/* ── RUNNING badge ── */
 .b-run{
   background:rgba(0,255,65,0.08);
   border-color:rgba(0,255,65,0.45);
@@ -211,7 +191,6 @@ img[alt="PyCharm"]:hover{filter:drop-shadow(0 0 8px #21D789) drop-shadow(0 0 16p
   0%,100%{box-shadow:0 0 12px rgba(0,255,65,0.12),inset 0 0 10px rgba(0,255,65,0.05);}
   50%{box-shadow:0 0 20px rgba(0,255,65,0.22),inset 0 0 16px rgba(0,255,65,0.1);}
 }
-/* ── TERMINATED badge ── */
 .b-stop{
   background:rgba(255,0,127,0.08);
   border-color:rgba(255,0,127,0.4);
@@ -219,7 +198,6 @@ img[alt="PyCharm"]:hover{filter:drop-shadow(0 0 8px #21D789) drop-shadow(0 0 16p
   box-shadow:0 0 10px rgba(255,0,127,0.1),inset 0 0 8px rgba(255,0,127,0.04);
 }
 
-/* ── STATUS DOT ── */
 .badge .dot{
   width:7px;height:7px;border-radius:50%;
   background:currentColor;flex-shrink:0;
@@ -242,7 +220,6 @@ img[alt="PyCharm"]:hover{filter:drop-shadow(0 0 8px #21D789) drop-shadow(0 0 16p
   50%{opacity:0.6;}
 }
 
-/* ── BADGE TEXT animated ── */
 .badge-txt-run{
   background:linear-gradient(90deg,#00ff41,#7fffb0,#00ff41);
   background-size:200% 100%;
@@ -261,7 +238,6 @@ img[alt="PyCharm"]:hover{filter:drop-shadow(0 0 8px #21D789) drop-shadow(0 0 16p
   97%{transform:skewX(-3deg);opacity:0.5;letter-spacing:1px;}
 }
 
-/* ── MINING ACTIVE text ── */
 .mining-status-txt{
   font-size:11px;letter-spacing:1.5px;margin-top:4px;
   position:relative;display:inline-block;overflow:hidden;
@@ -274,7 +250,6 @@ img[alt="PyCharm"]:hover{filter:drop-shadow(0 0 8px #21D789) drop-shadow(0 0 16p
   font-weight:700;
 }
 @keyframes mining-flow{0%{background-position:0% 50%;}100%{background-position:300% 50%;}}
-/* blinking ellipsis */
 .mining-status-txt .ellipsis::after{
   content:'';
   animation:ellipsis 1.8s step-end infinite;
@@ -283,7 +258,6 @@ img[alt="PyCharm"]:hover{filter:drop-shadow(0 0 8px #21D789) drop-shadow(0 0 16p
 }
 @keyframes ellipsis{0%{content:'';}25%{content:'.';}50%{content:'..';}75%{content:'...';}100%{content:'';}}
 
-/* ── MINING RIG ── */
 .mining-rig{position:relative;width:115px;height:100px;display:flex;justify-content:center;align-items:center;}
 .btc-icon{font-size:40px;color:var(--y);filter:drop-shadow(0 0 14px rgba(247,147,26,0.85));animation:btc-float 2s ease-in-out infinite;z-index:2;position:relative;margin-right:14px;}
 @keyframes btc-float{0%,100%{transform:translateY(0) scale(1);}25%{transform:translateY(-5px) scale(1.04);filter:drop-shadow(0 0 22px rgba(247,147,26,1));}75%{transform:translateY(3px) scale(0.97);filter:drop-shadow(0 0 8px rgba(247,147,26,0.55));}}
@@ -298,7 +272,6 @@ img[alt="PyCharm"]:hover{filter:drop-shadow(0 0 8px #21D789) drop-shadow(0 0 16p
 @keyframes float-up{0%{transform:translateY(0) scale(1);opacity:1;}100%{transform:translateY(-45px) scale(1.1);opacity:0;}}
 .spark{position:absolute;background:#fff;border-radius:50%;box-shadow:0 0 6px var(--y),0 0 12px var(--k);z-index:5;pointer-events:none;}
 
-/* ── GAME LOGO TAGS ── */
 .glt{display:inline-flex;align-items:center;border-radius:8px;overflow:hidden;transition:transform 0.3s var(--spring),box-shadow 0.3s var(--ease),filter 0.3s var(--ease);cursor:pointer;}
 .glt:hover{transform:scale(1.12) translateY(-3px);}
 .glt img{display:block;object-fit:cover;}
@@ -352,7 +325,6 @@ img[alt="PyCharm"]:hover{filter:drop-shadow(0 0 8px #21D789) drop-shadow(0 0 16p
   <div class="section-title rev" style="animation-delay:0.5s;">/// LEGACY_PROJECTS.LOG</div>
   <div class="hud-list">
 
-    <!-- Crypto Miner -->
     <div class="hud-wrap rev" style="animation-delay:0.62s;">
       <div class="hud-inner">
         <div class="hud-info">
@@ -374,7 +346,6 @@ img[alt="PyCharm"]:hover{filter:drop-shadow(0 0 8px #21D789) drop-shadow(0 0 16p
       </div>
     </div>
 
-    <!-- Roblox Rejoin -->
     <div class="hud-wrap rev" style="animation-delay:0.74s;">
       <div class="hud-inner">
         <div class="hud-info">
@@ -393,7 +364,6 @@ img[alt="PyCharm"]:hover{filter:drop-shadow(0 0 8px #21D789) drop-shadow(0 0 16p
       </div>
     </div>
 
-    <!-- DoS Attacker -->
     <div class="hud-wrap rev" style="animation-delay:0.86s;">
       <div class="hud-inner">
         <div class="hud-info">
@@ -412,7 +382,6 @@ img[alt="PyCharm"]:hover{filter:drop-shadow(0 0 8px #21D789) drop-shadow(0 0 16p
       </div>
     </div>
 
-    <!-- Cày Thuê Roblox -->
     <div class="hud-wrap rev" style="animation-delay:0.98s;">
       <div class="hud-inner">
         <div class="hud-info">
@@ -447,7 +416,6 @@ img[alt="PyCharm"]:hover{filter:drop-shadow(0 0 8px #21D789) drop-shadow(0 0 16p
 'use strict';
 const lowEnd = navigator.hardwareConcurrency <= 2;
 
-// Cursor
 const cursor = document.getElementById('cursor');
 if(window.matchMedia('(hover:hover)').matches){
   document.addEventListener('mousemove', e => {
@@ -456,7 +424,6 @@ if(window.matchMedia('(hover:hover)').matches){
   });
 }
 
-// Click FX
 const CC = ['#00f0ff','#ff007f','#b026ff','#f7931a','#00ff41'];
 document.addEventListener('click', e => {
   const col = CC[Math.floor(Math.random() * CC.length)];
@@ -488,16 +455,13 @@ document.addEventListener('click', e => {
   setTimeout(() => b.remove(), 750);
 });
 
-// Particles
 particlesJS('particles-js', lowEnd
   ? {particles:{number:{value:18},color:{value:'#00f0ff'},shape:{type:'circle'},opacity:{value:.28},size:{value:1.5},move:{enable:true,speed:0.9}}}
   : {particles:{number:{value:50},color:{value:['#00f0ff','#ff007f','#b026ff']},shape:{type:'circle'},opacity:{value:.4},size:{value:1.8},line_linked:{enable:true,distance:135,color:'#b026ff',opacity:.18},move:{enable:true,speed:1.3}}}
 );
 
-// Title shimmer
 setTimeout(() => {const t=document.getElementById('main-title');if(t)t.classList.add('done');}, 1710);
 
-// Typewriter
 const lines = [
   'Từng sợ hãi khi đối diện Soft-Brick...',
   'Bây giờ Hard-Brick chỉ là trò trẻ con.',
@@ -518,7 +482,6 @@ function ts(){
 }
 setTimeout(ts, 1500);
 
-// Mining FX
 const rig = document.getElementById('mining-rig');
 const ir  = document.getElementById('impact-ring');
 function doHit(){
